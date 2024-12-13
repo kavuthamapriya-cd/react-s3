@@ -25,4 +25,3 @@ variable "mime_types" {
     ".txt"  = "text/plain"
   }
 }
-

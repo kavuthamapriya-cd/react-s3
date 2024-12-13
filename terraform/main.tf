@@ -42,4 +42,3 @@ resource "aws_s3_object" "react_app_files" {
   source       = "${path.module}/../react-app/build/${each.value}"
   content_type = lookup(var.mime_types, each.value, "application/octet-stream")
 }
-
